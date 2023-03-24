@@ -1,0 +1,15 @@
+C:\Ahmed\ormation webapi\ServiceLibrary\bin\Debug\net6.0\ServiceLibrary.deps.json
+C:\Ahmed\ormation webapi\ServiceLibrary\bin\Debug\net6.0\ServiceLibrary.dll
+C:\Ahmed\ormation webapi\ServiceLibrary\bin\Debug\net6.0\ServiceLibrary.pdb
+C:\Ahmed\ormation webapi\ServiceLibrary\bin\Debug\net6.0\ClassRepository.dll
+C:\Ahmed\ormation webapi\ServiceLibrary\bin\Debug\net6.0\ClassRepository.pdb
+C:\Ahmed\ormation webapi\ServiceLibrary\obj\Debug\net6.0\ServiceLibrary.csproj.AssemblyReference.cache
+C:\Ahmed\ormation webapi\ServiceLibrary\obj\Debug\net6.0\ServiceLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Ahmed\ormation webapi\ServiceLibrary\obj\Debug\net6.0\ServiceLibrary.AssemblyInfoInputs.cache
+C:\Ahmed\ormation webapi\ServiceLibrary\obj\Debug\net6.0\ServiceLibrary.AssemblyInfo.cs
+C:\Ahmed\ormation webapi\ServiceLibrary\obj\Debug\net6.0\ServiceLibrary.csproj.CoreCompileInputs.cache
+C:\Ahmed\ormation webapi\ServiceLibrary\obj\Debug\net6.0\ServiceLibrary.csproj.CopyComplete
+C:\Ahmed\ormation webapi\ServiceLibrary\obj\Debug\net6.0\ServiceLibrary.dll
+C:\Ahmed\ormation webapi\ServiceLibrary\obj\Debug\net6.0\refint\ServiceLibrary.dll
+C:\Ahmed\ormation webapi\ServiceLibrary\obj\Debug\net6.0\ServiceLibrary.pdb
+C:\Ahmed\ormation webapi\ServiceLibrary\obj\Debug\net6.0\ref\ServiceLibrary.dll

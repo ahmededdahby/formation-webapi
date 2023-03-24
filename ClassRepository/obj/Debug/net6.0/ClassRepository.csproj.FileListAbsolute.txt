@@ -1,0 +1,12 @@
+C:\Ahmed\ormation webapi\ClassRepository\bin\Debug\net6.0\ClassRepository.deps.json
+C:\Ahmed\ormation webapi\ClassRepository\bin\Debug\net6.0\ClassRepository.dll
+C:\Ahmed\ormation webapi\ClassRepository\bin\Debug\net6.0\ClassRepository.pdb
+C:\Ahmed\ormation webapi\ClassRepository\obj\Debug\net6.0\ClassRepository.csproj.AssemblyReference.cache
+C:\Ahmed\ormation webapi\ClassRepository\obj\Debug\net6.0\ClassRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Ahmed\ormation webapi\ClassRepository\obj\Debug\net6.0\ClassRepository.AssemblyInfoInputs.cache
+C:\Ahmed\ormation webapi\ClassRepository\obj\Debug\net6.0\ClassRepository.AssemblyInfo.cs
+C:\Ahmed\ormation webapi\ClassRepository\obj\Debug\net6.0\ClassRepository.csproj.CoreCompileInputs.cache
+C:\Ahmed\ormation webapi\ClassRepository\obj\Debug\net6.0\ClassRepository.dll
+C:\Ahmed\ormation webapi\ClassRepository\obj\Debug\net6.0\refint\ClassRepository.dll
+C:\Ahmed\ormation webapi\ClassRepository\obj\Debug\net6.0\ClassRepository.pdb
+C:\Ahmed\ormation webapi\ClassRepository\obj\Debug\net6.0\ref\ClassRepository.dll

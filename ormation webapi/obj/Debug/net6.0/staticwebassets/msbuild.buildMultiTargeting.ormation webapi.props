@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ormation webapi.props" />
+</Project>

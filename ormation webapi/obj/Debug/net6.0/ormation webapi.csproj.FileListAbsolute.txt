@@ -1,0 +1,36 @@
+C:\Ahmed\ormation webapi\ormation webapi\bin\Debug\net6.0\appsettings.Development.json
+C:\Ahmed\ormation webapi\ormation webapi\bin\Debug\net6.0\appsettings.json
+C:\Ahmed\ormation webapi\ormation webapi\bin\Debug\net6.0\ormation webapi.exe
+C:\Ahmed\ormation webapi\ormation webapi\bin\Debug\net6.0\ormation webapi.deps.json
+C:\Ahmed\ormation webapi\ormation webapi\bin\Debug\net6.0\ormation webapi.runtimeconfig.json
+C:\Ahmed\ormation webapi\ormation webapi\bin\Debug\net6.0\ormation webapi.dll
+C:\Ahmed\ormation webapi\ormation webapi\bin\Debug\net6.0\ormation webapi.pdb
+C:\Ahmed\ormation webapi\ormation webapi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Ahmed\ormation webapi\ormation webapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Ahmed\ormation webapi\ormation webapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Ahmed\ormation webapi\ormation webapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\ormation webapi.csproj.AssemblyReference.cache
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\ormation webapi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\ormation webapi.AssemblyInfoInputs.cache
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\ormation webapi.AssemblyInfo.cs
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\ormation webapi.csproj.CoreCompileInputs.cache
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\ormation webapi.MvcApplicationPartsAssemblyInfo.cs
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\ormation webapi.MvcApplicationPartsAssemblyInfo.cache
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\staticwebassets\msbuild.ormation webapi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\staticwebassets\msbuild.build.ormation webapi.props
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ormation webapi.props
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ormation webapi.props
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\scopedcss\bundle\ormation webapi.styles.css
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\ormation webapi.csproj.CopyComplete
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\ormation webapi.dll
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\refint\ormation webapi.dll
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\ormation webapi.pdb
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\ormation webapi.genruntimeconfig.cache
+C:\Ahmed\ormation webapi\ormation webapi\obj\Debug\net6.0\ref\ormation webapi.dll
+C:\Ahmed\ormation webapi\ormation webapi\bin\Debug\net6.0\ClassRepository.dll
+C:\Ahmed\ormation webapi\ormation webapi\bin\Debug\net6.0\ServiceLibrary.dll
+C:\Ahmed\ormation webapi\ormation webapi\bin\Debug\net6.0\ServiceLibrary.pdb
+C:\Ahmed\ormation webapi\ormation webapi\bin\Debug\net6.0\ClassRepository.pdb
