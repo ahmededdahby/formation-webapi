@@ -1,5 +1,7 @@
 using ClassRepository.IRepository;
 using ClassRepository.Repository;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using ServiceLibrary.Abstract;
 using ServiceLibrary.Service;
 
@@ -11,9 +13,12 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSingleton<IRestaurantRepository,RestaurantRepository>();
+//builder.Services.AddSingleton<IRestaurantRepository,RestaurantRepository>();
 builder.Services.AddScoped<IRestaurantService, RestaurantService>();
-
+builder.Services.AddDbContext<AppDbContext>(opt =>
+{
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
+});
 
 var app = builder.Build();
 

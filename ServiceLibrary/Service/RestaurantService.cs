@@ -1,5 +1,7 @@
 ﻿using ClassRepository.IRepository;
 using ClassRepository.Model;
+using ClassRepository.Repository;
+using Microsoft.EntityFrameworkCore;
 using ServiceLibrary.Abstract;
 using System;
 using System.Collections.Generic;
@@ -9,53 +11,44 @@ using System.Threading.Tasks;
 
 namespace ServiceLibrary.Service
 {
-    public class RestaurantService : IRestaurantService
-    {
-        private readonly IRestaurantRepository _repository;
+    public class RestaurantService : IRestaurantService {
+        private readonly AppDbContext _context;
 
-        public RestaurantService(IRestaurantRepository repository)
+        public RestaurantService(AppDbContext context)
         {
-            _repository = repository;
+            _context = context;
         }
 
-        public void Create(Restaurant restaurant)
+        public async Task<IEnumerable<Restaurant>> GetRestaurantsAsync()
         {
-            restaurant.Id = _repository.Restaurants.Max(x => x.Id)+1;
-            _repository.Restaurants.Add(restaurant);
+            return await _context.Restaurants.Include(r => r.Cuisine).ToListAsync();
         }
 
-        public bool Delete(int id)
+        public async Task<Restaurant?> GetRestaurantAsync(int id)
         {
-            var deletedrestaurant = GetRestaurant(id);
-            if(deletedrestaurant != null)
-            {
-                _repository.Restaurants.Remove(deletedrestaurant);
-                return true;
-            }
-            return false;
+            return await _context.Restaurants.Include(r => r.Cuisine).FirstOrDefaultAsync(r => r.Id == id);
         }
 
-        public Restaurant GetRestaurant(int id)
+        public async Task AddRestaurantAsync(Restaurant restaurant)
         {
-            return _repository.Restaurants.FirstOrDefault(x => x.Id == id);
+            await _context.Restaurants.AddAsync(restaurant);
+            await _context.SaveChangesAsync();
         }
 
-        public List<Restaurant> GetRestaurants()
+        public async Task UpdateRestaurantAsync(Restaurant restaurant)
         {
-            return _repository.Restaurants.ToList();
+            _context.Entry(restaurant).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
         }
 
-        public bool Update(Restaurant restaurant)
+        public async Task DeleteRestaurantAsync(int id)
         {
-            var restaurantupdated = GetRestaurant(restaurant.Id);
-            if (restaurantupdated != null)
-            {
-                restaurantupdated.Name = restaurant.Name;
-                restaurantupdated.Description = restaurant.Description;
-                _repository.Restaurants.Add(restaurantupdated);
-                return true;
-            }
-            return false;
+            var restaurant = await _context.Restaurants.FindAsync(id);
+            if (restaurant is null)
+                return;
+
+            _context.Restaurants.Remove(restaurant);
+            await _context.SaveChangesAsync();
         }
 
     }

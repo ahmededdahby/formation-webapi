@@ -11,6 +11,6 @@ namespace ClassRepository.IRepository
     {
         
 
-        List<Restaurant> Restaurants { get; set; }
+    /*    List<Restaurant> Restaurants { get; set; }*/
     }
 }

@@ -14,30 +14,39 @@ namespace ormation_webapi.Controllers
         {
             _service = service;
         }
-        [HttpGet("Ayoub")]
-        public IActionResult Getall()
+        [HttpGet("Restaurant")]
+        public async Task<ActionResult<List<Restaurant>>> Getall()
         {
 
-            return Ok(_service.GetRestaurants());
+            return Ok( await _service.GetRestaurantsAsync());
         }
-        [HttpGet("Ayoub/{id}")] 
-        public IActionResult Get(int id) 
+        [HttpGet("Restaurant/{id}")]
+        public async Task<ActionResult<Restaurant>> Get(int id)
         {
-            return Ok(_service.GetRestaurant(id));
+            return Ok(await _service.GetRestaurantAsync(id));
         }
         [HttpPut("Update")]
-        public IActionResult update([FromBody]Restaurant restaurant)
-        {
-            var res = _service.Update(restaurant);
-            return res ? Ok("Updated succesfully")  : BadRequest("Error accured");
-        }
-        [HttpPost("create")]
-        public IActionResult create([Bind("Name","Description")] Restaurant restaurant)
+        public async Task<IActionResult> update([FromBody] Restaurant restaurant)
         {
             try
             {
-                
-                _service.Create(restaurant);
+                 await _service.UpdateRestaurantAsync(restaurant);
+                return Ok("Updated succesfully");
+            }
+            catch
+            {
+                return BadRequest("Error accured");
+            }
+           
+          
+        }
+        [HttpPost("create")]
+        public async Task<ActionResult<Restaurant>> create([Bind("Name", "Description")] Restaurant restaurant)
+        {
+            try
+            {
+
+                await _service.AddRestaurantAsync(restaurant);
                 return Ok("created successfully");
 
             }
@@ -45,13 +54,22 @@ namespace ormation_webapi.Controllers
             {
                 return BadRequest(ex.Message);
             }
-           
+
         }
         [HttpDelete("delete")]
-        public IActionResult delete(int id)
+        public async Task<IActionResult> delete(int id)
         {
-            var res = _service.Delete(id);
-            return res ? Ok("deleted succesfully") : BadRequest("Error accured");
+            try
+            {
+                await _service.DeleteRestaurantAsync(id);
+                return Ok("deleted succesfully");
+            }
+            catch
+            {
+               return BadRequest("Error accured");
+            }
+           
+             
         }
     }
 }
